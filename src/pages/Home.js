@@ -11,7 +11,7 @@ const COFFEE_DATABASE = [
     price: 33, 
     calories: 120, 
     desc: "Ristretto double shot sur une micro-mousse dense et veloutée.", 
-    img: "https://images.unsplash.com/photo-1577968897466-3d43252367e7?w=500&q=80" 
+    img: "https://images.unsplash.com/photo-1579265898841-79c7890d69cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEZsYXQlMjBXaGl0ZXxlbnwwfHwwfHx8MA%3D%3D" 
   },
   { 
     id: 2, 
@@ -20,7 +20,7 @@ const COFFEE_DATABASE = [
     price: 24, 
     calories: 5, 
     desc: "Extraction pure sous haute pression de grains fins d'altitude.", 
-    img: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=500&q=80" 
+    img: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FmJUMzJUE5JTIwZXhwcmVzc298ZW58MHx8MHx8fDA%3D" 
   },
   { 
     id: 3, 
@@ -38,7 +38,7 @@ const COFFEE_DATABASE = [
     price: 35, 
     calories: 190, 
     desc: "Lait chaud, espresso fort et une montagne d'écume saupoudrée de cacao.", 
-    img: "https://images.unsplash.com/photo-1534778101976-62847782c213?w=500&q=80" 
+    img: "https://images.unsplash.com/photo-1747932888940-e230fc374ed1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2FwcHVjY2lubyUyME1vdXNzZSUyMEZsdWZmeXxlbnwwfHwwfHx8MA%3D%3D" 
   },
   { 
     id: 5, 
@@ -47,7 +47,7 @@ const COFFEE_DATABASE = [
     price: 28, 
     calories: 4, 
     desc: "Double shot d'espresso allongé à l'eau glacée, pur et rafraîchissant.", 
-    img: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&q=80" 
+    img: "https://images.unsplash.com/photo-1717603545721-f6c3ebf8a277?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI2fHxJY2VkJTIwQW1lcmljYW5vJTIwUHVyfGVufDB8fDB8fHww" 
   },
   { 
     id: 6, 
@@ -56,7 +56,7 @@ const COFFEE_DATABASE = [
     price: 45, 
     calories: 150, 
     desc: "Thé vert matcha de cérémonie japonais frappé au lait d'amande.", 
-    img: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&q=80" 
+    img:  "https://images.unsplash.com/photo-1717603545586-208c9d67fcbe?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   { 
     id: 7, 
@@ -65,7 +65,7 @@ const COFFEE_DATABASE = [
     price: 39, 
     calories: 260, 
     desc: "Fusion d'un chocolat noir premium, d'espresso et de crème fouettée.", 
-    img: "https://images.unsplash.com/photo-1607687314552-46522c0b4b84?w=500&q=80" 
+    img: "https://plus.unsplash.com/premium_photo-1695750679584-b8e21965ef0f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TW9jaGElMjBDaG9jb2xhdHxlbnwwfHwwfHx8MA%3D%3D" 
   },
   { 
     id: 8, 
@@ -74,7 +74,7 @@ const COFFEE_DATABASE = [
     price: 29, 
     calories: 60, 
     desc: "Une dose d'espresso simplement tachetée d'une cuillère de mousse de lait.", 
-    img: "https://images.unsplash.com/photo-1534687941688-651ccaafbff8?w=500&q=80" 
+    img: "https://plus.unsplash.com/premium_photo-1673459683929-3f3574de7e75?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFjY2hpYXRvJTIwVHJhZGl0aW9ubmVsfGVufDB8fDB8fHww" 
   },
   { 
     id: 9, 
@@ -83,7 +83,7 @@ const COFFEE_DATABASE = [
     price: 36, 
     calories: 2, 
     desc: "Filtration artisanale lente révélant toutes les notes florales du café.", 
-    img: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&q=80" 
+    img: "https://plus.unsplash.com/premium_photo-1667621221037-6423c7f3fa7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNhZiVDMyVBOSUyMENoZW1leCUyMEZpbHRyYXRpb24lMjBMZW50ZXxlbnwwfHwwfHx8MA%3D%3D" 
   },
   { 
     id: 10, 
@@ -92,7 +92,7 @@ const COFFEE_DATABASE = [
     price: 42, 
     calories: 95, 
     desc: "Espresso vigoureusement frappé au shaker avec un soupçon de sucre de canne.", 
-    img: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?w=500&q=80" 
+    img: "https://images.unsplash.com/photo-1607687332293-41e4698ce5c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXNwcmVzc28lMjB2aWdvdXJldXNlbWVudCUyMGZyYXBwJUMzJUE5JTIwYXUlMjBzaGFrZXIlMjBhdmVjJTIwdW4lMjBzb3VwJUMzJUE3b24lMjBkZSUyMHN1Y3JlJTIwZGUlMjBjYW5uZS58ZW58MHx8MHx8fDA%3D" 
   }
 ];
 
@@ -114,7 +114,7 @@ function Home() {
           <span className="text-xs font-semibold tracking-widest uppercase text-amber-700 bg-amber-50 px-3.5 py-1.5 rounded-full border border-amber-100 inline-block">
             Maison Doja • Casablanca
           </span>
-          <h1 className="text-4xl md:text-6xl font-light tracking-tight text-zinc-900 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-light tracking-tight text-https://images.unsplash.com/photo-1607687314552-46522c0b4b84?w=500&q=80zinc-900 leading-tight">
             Pure taste. <br/><span className="font-medium text-amber-800">Minimalist design.</span>
           </h1>
           <p className="text-zinc-500 text-sm font-light max-w-md leading-relaxed">

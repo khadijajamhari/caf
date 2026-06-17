@@ -123,10 +123,14 @@ export default function Customizer() {
             </div>
           </motion.div>
 
-          <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
-            className="w-full py-6 bg-amber-500 text-black font-bold rounded-3xl text-xs uppercase tracking-[4px] shadow-[0_10px_30px_rgba(245,158,11,0.2)]">
-            Infuse signature blend
-          </motion.button>
+          <motion.button 
+  whileHover={{ scale: 1.02 }} 
+  whileTap={{ scale: 0.98 }}
+  onClick={() => alert("تم إرسال الطلب بنجاح! شكراً لاختياركم Doja Café Lab.")}
+  className="w-full py-6 bg-amber-500 text-black font-bold rounded-3xl text-xs uppercase tracking-[4px] shadow-[0_10px_30px_rgba(245,158,11,0.3)]"
+>
+  Infuse signature blend
+</motion.button>
         </div>
 
       </div>
